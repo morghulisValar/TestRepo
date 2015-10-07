@@ -1,0 +1,5 @@
+Scroll view sets its content size based on objects droppped inside its content area.
+
+So, if an image is dropped then scroll view can compute the content size required. But with textfields it does not work.
+
+To work smoothly, everything inside the scrollview is first of all put in a uiview and then that uiview is put into the scrollview.
